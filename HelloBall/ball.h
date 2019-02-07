@@ -6,13 +6,12 @@
 class Ball : public Figure
 {
 public:
-    Ball();
+    Ball(float _radius, array<float, 3> color);
 
     void drawGL();
     void step();
 private:
-    float angle;
-    float angle_step;
+    float radius;
 };
 
 #endif // BALL_H
