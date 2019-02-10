@@ -12,6 +12,7 @@ public:
 
 private:
     double side;
+    double h, half_h, half_side;
 
 };
 

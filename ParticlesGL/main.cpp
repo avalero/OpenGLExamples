@@ -90,7 +90,7 @@ int main(int argc, char **argv) {
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB);
     glutInitWindowPosition(50,50);
     glutInitWindowSize(800,800);
-    glutCreateWindow("ParticlesGL - GLUT Tutorial");
+    glutCreateWindow("GLUT Tutorial");
 
     // register callbacks
     glutDisplayFunc(renderScene);
